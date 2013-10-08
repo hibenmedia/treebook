@@ -7,6 +7,62 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "db/migrate/20131006193225_add_user_id_to_statuses.rb",
+			"settings":
+			{
+				"buffer_size": 186,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/statuses/_form.html.erb",
+			"settings":
+			{
+				"buffer_size": 538,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/statuses/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 605,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/statuses/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 234,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/user.rb",
+			"settings":
+			{
+				"buffer_size": 488,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/status.rb",
+			"settings":
+			{
+				"buffer_size": 94,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/migrate/20131001060458_create_statuses.rb",
+			"settings":
+			{
+				"buffer_size": 175,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -32,7 +88,24 @@
 	},
 	"file_history":
 	[
+		"/Users/jhipshir/treebook/db/migrate/20131001060458_create_statuses.rb",
+		"/Users/jhipshir/treebook/app/models/user.rb",
+		"/Users/jhipshir/treebook/app/models/status.rb",
+		"/Users/jhipshir/treebook/app/views/statuses/show.html.erb",
+		"/Users/jhipshir/treebook/app/views/layouts/application.html.erb",
+		"/Users/jhipshir/treebook/app/views/statuses/edit.html.erb",
+		"/Users/jhipshir/treebook/Gemfile",
+		"/Users/jhipshir/treebook/app/views/devise/registrations/new.html.erb",
+		"/Users/jhipshir/treebook/db/migrate/20131006175446_devise_create_users.rb",
+		"/Users/jhipshir/treebook/config/application.rb",
+		"/Users/jhipshir/treebook/config/routes.rb",
+		"/Users/jhipshir/treebook/app/assets/javascripts/statuses.js.coffee",
+		"/Users/jhipshir/treebook/app/assets/stylesheets/statuses.css.scss",
 		"/Users/jhipshir/treebook/app/views/statuses/index.html.erb",
+		"/Users/jhipshir/treebook/.gitignore",
+		"/Users/jhipshir/treebook/config/environments/development.rb",
+		"/Users/jhipshir/treebook/app/assets/stylesheets/application.css",
+		"/Users/jhipshir/treebook/app/assets/stylesheets/scaffolds.css.scss",
 		"/Applications/MAMP/htdocs/HTML Practice/test_drop_menu.css",
 		"/Applications/MAMP/htdocs/HTML Practice/test_drop_menu.html",
 		"/Applications/MAMP/htdocs/shirts.php",
@@ -75,8 +148,195 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "db/migrate/20131006193225_add_user_id_to_statuses.rb",
+					"settings":
+					{
+						"buffer_size": 186,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								175,
+								175
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/statuses/_form.html.erb",
+					"settings":
+					{
+						"buffer_size": 538,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								432,
+								432
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/statuses/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 605,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								223,
+								223
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/statuses/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 234,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/models/user.rb",
+					"settings":
+					{
+						"buffer_size": 488,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								448,
+								448
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 103.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/models/status.rb",
+					"settings":
+					{
+						"buffer_size": 94,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "db/migrate/20131001060458_create_statuses.rb",
+					"settings":
+					{
+						"buffer_size": 175,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -121,6 +381,18 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"appli",
+				"config/application.rb"
+			],
+			[
+				"ro",
+				"config/routes.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			]
 		],
 		"width": 0.0
 	},
@@ -136,6 +408,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 176.0,
+	"side_bar_width": 294.0,
 	"status_bar_visible": true
 }
