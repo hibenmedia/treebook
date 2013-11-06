@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Treebook</title>
+  <title>Hiben</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -10,7 +10,7 @@
 <div class="navbar navbar-fixed-top navbar-inverse">
 	<div class="navbar-inner">
 		<div class="container">
-			<a class="brand" href="#">Treebook</a>
+			<a class="brand" href="#">Hiben</a>
 			<ul class="nav">
 				<li><%= link_to "All Statuses", statuses_path %></li>
 				<li class="divider-vertical"></li>
@@ -29,9 +29,10 @@
 	</div>
 </div>
 <!-- CONTENT STARTS HERE -->
+<br/>
 <div class="container">
-	<p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
+	<!--p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p-->
 	<%= yield %>
 </div>
 		

@@ -8,18 +8,26 @@
 	"buffers":
 	[
 		{
-			"file": "db/migrate/20131006193225_add_user_id_to_statuses.rb",
+			"file": "app/views/layouts/application.html.erb",
 			"settings":
 			{
-				"buffer_size": 186,
+				"buffer_size": 1101,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/statuses/_form.html.erb",
+			"file": "app/assets/stylesheets/application.css",
 			"settings":
 			{
-				"buffer_size": 538,
+				"buffer_size": 576,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/devise/sessions/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 609,
 				"line_ending": "Unix"
 			}
 		},
@@ -28,38 +36,6 @@
 			"settings":
 			{
 				"buffer_size": 605,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/statuses/show.html.erb",
-			"settings":
-			{
-				"buffer_size": 234,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/models/user.rb",
-			"settings":
-			{
-				"buffer_size": 488,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/models/status.rb",
-			"settings":
-			{
-				"buffer_size": 94,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "db/migrate/20131001060458_create_statuses.rb",
-			"settings":
-			{
-				"buffer_size": 175,
 				"line_ending": "Unix"
 			}
 		}
@@ -88,10 +64,13 @@
 	},
 	"file_history":
 	[
-		"/Users/jhipshir/treebook/db/migrate/20131001060458_create_statuses.rb",
-		"/Users/jhipshir/treebook/app/models/user.rb",
-		"/Users/jhipshir/treebook/app/models/status.rb",
+		"/Users/jhipshir/treebook/db/migrate/20131006193225_add_user_id_to_statuses.rb",
+		"/Users/jhipshir/treebook/app/views/statuses/_form.html.erb",
+		"/Users/jhipshir/treebook/app/views/statuses/index.html.erb",
 		"/Users/jhipshir/treebook/app/views/statuses/show.html.erb",
+		"/Users/jhipshir/treebook/db/migrate/20131001060458_create_statuses.rb",
+		"/Users/jhipshir/treebook/app/models/status.rb",
+		"/Users/jhipshir/treebook/app/models/user.rb",
 		"/Users/jhipshir/treebook/app/views/layouts/application.html.erb",
 		"/Users/jhipshir/treebook/app/views/statuses/edit.html.erb",
 		"/Users/jhipshir/treebook/Gemfile",
@@ -101,7 +80,6 @@
 		"/Users/jhipshir/treebook/config/routes.rb",
 		"/Users/jhipshir/treebook/app/assets/javascripts/statuses.js.coffee",
 		"/Users/jhipshir/treebook/app/assets/stylesheets/statuses.css.scss",
-		"/Users/jhipshir/treebook/app/views/statuses/index.html.erb",
 		"/Users/jhipshir/treebook/.gitignore",
 		"/Users/jhipshir/treebook/config/environments/development.rb",
 		"/Users/jhipshir/treebook/app/assets/stylesheets/application.css",
@@ -148,28 +126,29 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "db/migrate/20131006193225_add_user_id_to_statuses.rb",
+					"file": "app/views/layouts/application.html.erb",
 					"settings":
 					{
-						"buffer_size": 186,
+						"buffer_size": 1101,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								175,
-								175
+								216,
+								254
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -179,25 +158,23 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/views/statuses/_form.html.erb",
+					"file": "app/assets/stylesheets/application.css",
 					"settings":
 					{
-						"buffer_size": 538,
+						"buffer_size": 576,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								432,
-								432
+								576,
+								576
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -207,6 +184,33 @@
 				},
 				{
 					"buffer": 2,
+					"file": "app/views/devise/sessions/new.html.erb",
+					"settings":
+					{
+						"buffer_size": 609,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								440,
+								440
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "app/views/statuses/index.html.erb",
 					"settings":
 					{
@@ -217,8 +221,8 @@
 						"selection":
 						[
 							[
-								223,
-								223
+								605,
+								605
 							]
 						],
 						"settings":
@@ -226,110 +230,6 @@
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/views/statuses/show.html.erb",
-					"settings":
-					{
-						"buffer_size": 234,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/models/user.rb",
-					"settings":
-					{
-						"buffer_size": 488,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								448,
-								448
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 103.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/models/status.rb",
-					"settings":
-					{
-						"buffer_size": 94,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "db/migrate/20131001060458_create_statuses.rb",
-					"settings":
-					{
-						"buffer_size": 175,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -382,6 +282,10 @@
 		"selected_items":
 		[
 			[
+				"index",
+				"app/views/statuses/index.html.erb"
+			],
+			[
 				"appli",
 				"config/application.rb"
 			],
@@ -408,6 +312,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 294.0,
+	"side_bar_width": 212.0,
 	"status_bar_visible": true
 }
