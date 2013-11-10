@@ -7,3 +7,9 @@ one:
 two:
   content: MyText
   user: mark
+
+three:
+  content: "Hi, I'm Jason."
+  user: jason
+
+  #Do NOT use tabs with fixtures. They are very picky, about this, so use two spaces or the code will result in an error.

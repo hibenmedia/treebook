@@ -2,4 +2,12 @@ mark:
   first_name: "Mark"
   last_name: "Hipshire"
   email: "jhipshir@gmail.com"
-  profile_name: "jhiphsir"
+  profile_name: "jhipshir"
+
+jason:
+  first_name: 'Jason'
+  last_name: 'Seifer'
+  email: 'jason@teamtreehouse.com'
+  profile_name: 'jasonseifer'
+
+  #Do NOT use tabs with fixtures. They are very picky, about this, so use two spaces or the code will result in an error. 

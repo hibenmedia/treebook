@@ -13,4 +13,12 @@ class StatusTest < ActiveSupport::TestCase
   	assert !status.save
   	assert !status.errors[:content].empty?
   end
+
+  test "statuses have a user id" do
+  	status = Status.new
+  	status.content = "Hello"
+  	user_id = ""
+  	assert !status.save
+  	assert !status.errors[:content].empty?
+  end
 end
