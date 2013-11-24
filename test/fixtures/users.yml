@@ -10,4 +10,10 @@ jason:
   email: 'jason@teamtreehouse.com'
   profile_name: 'jasonseifer'
 
+mike:
+  first_name: 'Mike'
+  last_name: 'the Frog'
+  email: 'mike@teamtreehouse.com'
+  profile_name: 'mikethefrog'
+
   #Do NOT use tabs with fixtures. They are very picky, about this, so use two spaces or the code will result in an error. 
